@@ -74,7 +74,7 @@
 .header__button:hover {
   background-color: #b2f2ee;
   border: 2px solid #b2f2ee;
-  font-weight: bolder;  
+  font-weight: bolder;
 }
 
 .header__glass {
@@ -178,17 +178,31 @@
   justify-content: center;
 }
 
-/* .small-team__item > .small-team__effect {display: none;} */
-
-/* .small-team__item:hover > .small-team__effect {display: block; cursor: default;} */
-
-.small-team__effect {     
-  position: absolute;  
-  /* position: relative; */
-  /* bottom: 260px; */
+.small-team__item {
+  position: relative;
 }
 
-.small-team__effect:before {
+.small-team__item > .small-team__effect {display: none;}
+
+.small-team__item:hover > .small-team__effect {display: block; cursor: default;}
+
+.small-team__effect {     
+  position: absolute;
+  left: 17.5px;
+  right: 17.5px;    
+  /* position: relative; */
+  bottom: 15px;
+}
+
+.small-team-effect__caption { 
+  background-color: #02f6eb;
+  position: absolute;
+  bottom: 0;
+	left: 0;
+  padding: 40px 40px;
+}
+
+.small-team-effect__caption:before {
   border-bottom: 20px solid #02f6eb;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
@@ -198,17 +212,8 @@
 	content:'';
 }
 
-.small-team__effect:after {
+.small-team-effect__caption:after {
   content:'';
-}
-
-.small-team-effect__caption { 
-  background-color: #02f6eb;
-  position: absolute;
-  bottom: 0;
-	left: 0;
-  padding: 40px 40px;
-  margin: 0 17.5px;
 }
 
 .small-team-effect__caption h4 {
