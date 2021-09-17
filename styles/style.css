@@ -164,6 +164,15 @@
   justify-content: center;
 }
 
+.featured-works__item {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.featured-works__item:hover {
+  opacity: 0.6;
+}
+
 .small-team {
   background-color: #f9fbfb;
   padding: 110px 0 125px 0;
