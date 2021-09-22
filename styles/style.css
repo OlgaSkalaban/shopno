@@ -289,7 +289,8 @@
 
 footer {
   background-color: rgb(38, 43, 46);
-  height: 315px;
+  /* height: 315px; */
+  padding: 85px 0 150px;
 }
 
 .footer__header {
@@ -299,7 +300,7 @@ footer {
   font-family: "Raleway";
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.563;
-  padding-top: 85px;
+  margin-bottom: 10px;
 }
 
 .footer__list {
@@ -307,7 +308,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 46px);
   gap: 7px;
-  padding-top: 10px;
   width: 205px;
   margin: 0 auto;
 }
@@ -626,5 +626,169 @@ footer {
     padding: 20px 18px 15px;
     width: 50%;
     height: 40%;
+  }
+}
+@media (max-width: 480px) {
+  .header {
+    padding: 20px 0;
+  }
+  .header__content {
+    padding: 0 5px;
+  }
+  .header__link {
+    width: 70px;
+    font-size: 10px;
+    border: 2px solid #170f1c;
+    margin-bottom: 50px;
+    padding: 0 5px;
+  }
+  .header__letter {
+    font-size: 15px;
+  } 
+  .header__title {
+    font-size: 22px;
+    margin-bottom: 45px;
+  }
+  .header__button {
+    width: 130px;
+    padding: 5px 20px;
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+  }
+  .header__image {
+    width: 70%;
+    height: 70%;
+    bottom: 15px;
+  }
+  .about-us {
+    padding: 50px 0;
+  }
+  .content {
+    padding: 0 5px;
+  }
+  .blocks__header {
+    font-size: 28px;
+  }
+  .block__description {
+    font-size: 8px;
+    margin-bottom: 20px;
+  }
+  .about-us__content {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .about-us__picture {
+    width: 100%;
+    height: 100%;
+  }
+  .about-us__text {
+    padding: 10px 0 0;
+    margin-left: 0;
+  }
+  .about-us__subheader{
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin: 0 0 15px;
+  }
+  .about-us__description {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .featured-works {
+    padding: 50px 0;
+  }
+  .featured-works__list {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .small-team {
+    padding: 50px 0;
+  }
+  .small-team__list {
+    grid-gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+  .small-team__effect {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+  .small-team-effect__caption {
+    padding: 30px 30px;
+  }
+  .small-team-effect__caption:before {
+    left: 20px;
+    border-bottom: 18px solid #02f6eb;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+  .small-team-effect__caption h4 {
+    font-size: 18px;
+    margin-bottom: 13px;
+  }
+  .small-team-effect__caption span {
+    font-size: 14px;
+  }
+  .small-team-effect__caption p {
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+  .ste-socials__item {
+    width: 30px;
+  }
+  .ste-socials__item a {
+    font-size: 15px;
+  }
+  .ste-socials__item a:hover {  
+    font-size: 20px;
+  }
+  .contact-data {
+    padding: 50px 0;
+  }
+  .contact-data__content {
+    padding: 0 5px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-data__form {
+    height: auto;
+    width: 90%;
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+  .contact-data__userinfo-list {
+    padding: 15px 20px;
+  }
+  .contact-data__item input {
+    padding: 10px 0 5px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .contact-data__item textarea {
+    padding: 10px 0 5px;
+    height: 100px;
+    font-size: 12px;
+  }
+  .contact-data__button {
+    padding-top: 30px;
+  }
+  .contact-data__button button {
+    width: 180px;
+    height: 40px;
+    font-size: 15px;
+  }
+  .contact-data__agency {
+    font-size: 13px;
+    letter-spacing: .3px;
+    padding: 20px 18px 15px;
+    width: 90%;
+    height: 40%;
+  }
+  .footer {
+    padding: 85px 0 0;
   }
 }
