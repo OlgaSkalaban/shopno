@@ -20,7 +20,7 @@
   padding: 0 7px; 
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  color: #000000;
+  color: #292929;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.647;
@@ -655,9 +655,9 @@ footer {
     padding: 0 5px;
   }
   .header__link {
-    width: 70px;
-    font-size: 10px;
-    border: 2px solid #170f1c;
+    width: 80px;
+    font-size: 12px;
+    border: 2px solid #292929;
     margin-bottom: 50px;
     padding: 0 5px;
   }
@@ -671,7 +671,7 @@ footer {
   .header__button {
     width: 130px;
     padding: 5px 20px;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.5px;
   }
@@ -690,7 +690,7 @@ footer {
     font-size: 28px;
   }
   .block__description {
-    font-size: 8px;
+    font-size: 12px;
     margin-bottom: 20px;
   }
   .about-us__content {
@@ -712,7 +712,7 @@ footer {
     margin: 0 0 15px;
   }
   .about-us__description {
-    font-size: 10px;
+    font-size: 12px;
     margin-bottom: 15px;
   }
   .featured-works {
