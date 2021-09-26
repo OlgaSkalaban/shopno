@@ -182,6 +182,26 @@
   height: 100%;
 }
 
+#element_to_pop_up1, #element_to_pop_up2,
+#element_to_pop_up3, #element_to_pop_up4,
+#element_to_pop_up5, #element_to_pop_up6 { 
+  background-color:#fff;
+  border-radius: 15px;
+  color:#000;
+  display: none;
+  margin-top: 20px;
+  padding: 50px;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+.b-close{
+  cursor: pointer;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+
 .small-team {
   background-color: #f9fbfb;
   padding: 110px 0 125px 0;
