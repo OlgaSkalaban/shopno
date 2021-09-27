@@ -260,7 +260,7 @@
   content:'';
 }
 
-.small-team-effect__caption h4 {
+.small-team-effect__caption h3 {
   font-size: 20px;
   text-transform: uppercase;
   font-family: "Merriweather";
@@ -511,7 +511,7 @@ footer {
   .small-team-effect__caption {
     padding: 30px;
   }
-  .small-team-effect__caption h4 {
+  .small-team-effect__caption h3 {
     font-size: 18px;
   }
   .small-team-effect__caption span {
@@ -607,7 +607,7 @@ footer {
     border-left: 7px solid transparent;
     border-right: 7px solid transparent;
   }
-  .small-team-effect__caption h4 {
+  .small-team-effect__caption h3 {
     font-size: 13px;
     margin-bottom: 13px;
   }
@@ -750,7 +750,7 @@ footer {
     border-left: 10px solid transparent;
     border-right: 10px solid transparent;
   }
-  .small-team-effect__caption h4 {
+  .small-team-effect__caption h3 {
     font-size: 18px;
     margin-bottom: 13px;
   }
