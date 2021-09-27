@@ -68,13 +68,13 @@
   text-align: center;
   text-decoration: none;
   border: 2px solid #777879;
-  transition: background-color .5s;
+  transition: all .3s;
 }
 
 .header__button:hover {
   background-color: #b2f2ee;
   border: 2px solid #b2f2ee;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 .header__glass {
@@ -200,11 +200,13 @@
   position: absolute;
   right: 15px;
   top: 10px;
+  text-decoration: none;
+  color: #898b8b;
 }
 
 .small-team {
   background-color: #f9fbfb;
-  padding: 110px 0 125px 0;
+  padding: 110px 0 125px;
 }
 
 .small-team__list {
@@ -225,15 +227,14 @@
   height: 100%;
 }
 
-.small-team__item > .small-team__effect {display: none;}
+.small-team__item > .small-team__effect {opacity: 0;}
 
-.small-team__item:hover > .small-team__effect {display: block; cursor: default;}
+.small-team__item:hover > .small-team__effect {opacity: 1;; cursor: default;}
 
 .small-team__effect {     
   position: absolute;
   left: 17.5px;
-  right: 17.5px;    
-  /* position: relative; */
+  right: 17.5px; 
   bottom: 15px;
 }
 
@@ -242,7 +243,7 @@
   position: absolute;
   bottom: 0;
 	left: 0;
-  padding: 40px 40px;
+  padding: 40px 40px 30px;
 }
 
 .small-team-effect__caption:before {
@@ -294,12 +295,14 @@
 
 .ste-socials__item {
   width: 25px;
+  height: 25px;
 }
 
 .ste-socials__item a {
   color: #214946;  
   font-size: 13px;
   transition: font-size 0.2s;
+  padding: 2px;
 }
 
 .ste-socials__item a:hover {  
@@ -475,7 +478,7 @@ footer {
     padding: 65px 0 105px;
   }
   .header__content {
-    padding: 0 5%;
+    padding: 0 5px;
   }
   .header__link {
     margin-bottom: 100px;
@@ -487,7 +490,7 @@ footer {
     margin-left: 85%;
   }
   .content {
-    padding: 0 5%;
+    padding: 0 5px;
   }
   .about-us {
     padding: 105px 0;
@@ -519,7 +522,7 @@ footer {
     margin-bottom: 20px;
   }
   .contact-data__content {
-    padding: 0 5%;
+    padding: 0 5px;
   }
 }
 
@@ -581,6 +584,8 @@ footer {
   }
   .featured-works__list {
     grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
   .small-team {
     padding: 80px 0;
