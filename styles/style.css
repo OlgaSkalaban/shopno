@@ -29,6 +29,11 @@
   text-decoration: none;
   border: 5px solid #292929;
   margin-bottom: 150px;
+  transition: border .3s;
+}
+
+.header__link:hover {
+  
 }
 
 .header__letter {
@@ -147,7 +152,7 @@
 }
 
 .about-us__description {
-  font-size: 16px;
+  font-size: 17px;
   font-family: "Raleway";
   color: #000000bf;
   line-height: 1.75;
@@ -690,7 +695,6 @@ footer {
     font-size: 14px;
     margin-bottom: 15px;
   }
-
   #element_to_pop_up1, #element_to_pop_up2,
   #element_to_pop_up3, #element_to_pop_up4,
   #element_to_pop_up5, #element_to_pop_up6 { 
