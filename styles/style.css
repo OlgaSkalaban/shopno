@@ -32,10 +32,6 @@
   transition: border .3s;
 }
 
-.header__link:hover {
-  
-}
-
 .header__letter {
   font-size: 19px;
   color: #76f4ea;
@@ -452,7 +448,6 @@ footer {
 }
 
 .contact-data__agency {
-  /* width: 500px; */
   width: 45%;
   height: 460px;
   background-color: rgba(2, 22, 35, 0.7);
@@ -465,9 +460,14 @@ footer {
   padding: 30px 23px 19px 23px;
 }
 
+.contact-data__agency p {
+  margin-left: 10px;
+}
+
 .contact-data__agency a {
   color: #b7bdc0;
   text-decoration: none;
+  transition: all 0.2s;
 }
 
 .contact-data__agency a:hover {
@@ -475,6 +475,7 @@ footer {
 }
 
 .contact-data__maps {
+  width: 100%;
   padding-top: 15px;
 }
 
